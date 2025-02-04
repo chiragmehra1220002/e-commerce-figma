@@ -26,19 +26,22 @@ const Navbar = () => {
           </div>
   
        
-          <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
+          <button className="md:hidden sm:block sm:absolute sm:right-0" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
   
      
         {isOpen && (
-          <div className="md:hidden flex flex-col bg-white shadow-md p-4 space-y-4">
-            <Link href="/Home" className="text-sm text-gray-700">Home</Link>
-            <Link href="/Deals" className="text-sm text-gray-700">Deals</Link>
-            <Link href="/New Arrivals" className="text-xs text-gray-700">New Arrivals</Link>
-            <Link href="/Packages" className="text-sm text-gray-700">Packages</Link>
-            <Link href="/Sign in" className="text-sm text-gray-700">Sign in</Link>
+          <div className="md:hidden sm:flex sm:flex-col sm:bg-white sm:shadow-md sm:p-2 sm:space-y-3 sm:absolute sm:right-0 sm:top-4 sm:z-50">
+            <button className="md:hidden sm:block sm:absolute sm:right-0" onClick={() => setIsOpen(!isOpen)}>
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+            <Link href="/" className="text-sm text-gray-700">Home</Link>
+            <Link href="/" className="text-sm text-gray-700">Deals</Link>
+            <Link href="/" className="text-xs text-gray-700">New Arrivals</Link>
+            <Link href="/" className="text-sm text-gray-700">Packages</Link>
+            <Link href="/" className="text-sm text-gray-700">Sign in</Link>
             <button className="bg-gray-800 text-white text-sm rounded-lg px-5 py-2 w-full hover:bg-gray-900">
               Sign Up
             </button>

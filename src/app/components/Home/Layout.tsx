@@ -21,14 +21,14 @@ const Layout1 = () => {
 
         </div>
         <div>
-            <div className='md:w-[398px] md:h-[600px] md:flex md:flex-col md:gap-[16px]   md:ml-[0px] sm:w-[300px] sm:h-[600px] sm:flex sm:flex-col sm:gap-[16px] sm :ml-[50px] xs:w-[300px] xs:h-[600px] xs:flex xs:flex-col xs:gap-[12px] xs:ml-[-40px] '>
+            <div className='md:w-[398px] md:h-[600px] md:flex md:flex-col md:gap-[16px]   md:ml-[0px] sm:w-[300px] sm:h-[600px] sm:flex sm:flex-col sm:gap-[16px] sm :ml-[50px]  xs:w-[300px] xs:h-[600px] xs:flex xs:flex-col xs:gap-[12px] xs:ml-[-40px]  '>
                 <div className='md:w-[398px] md:h-[120px] md:bg-[#dcdcdc] md:relative md:rounded-lg sm:w-[300px] sm:h-[120px] sm:bg-[#dcdcdc]  sm:relative sm:rounded-lg ] xs:w-[300px] xs:h-[110px] xs:bg-[#dcdcdc] xs:relative'>
-                    <img src={image3.src} alt="" className="md:w-[300px] md:h-[120px]  md:object-contain md:absolute md:left-[50px] sm:w-[250px] sm:h-[120px]  sm:object-contain sm:absolute sm:left-[40px]  xs:w-[250px]  xs:h-[110px] xs:object-contain xs:absolute xs:left-[20px]" />
+                    <img src={image3.src} alt="" className="md:w-[300px] md:h-[120px]  md:object-contain md:absolute  md:left-[50px] sm:w-[250px] sm:h-[120px]  sm:object-contain sm:absolute sm:left-[40px] sm:z-2  xs:w-[250px]  xs:h-[110px] xs:object-contain xs:absolute xs:left-[20px]" />
 
                 </div>
                 <div className='w-[398px] h-[480px] bg-[#ffffff]  flex flex-col  md'>
                    <div className='md:poppins-light md:w-[396px] md:h-[91px] md:text-6xl font-[500] md:text-center md:ml-[0px] sm:poppins-light sm:w-[396px] sm:h-[91px] sm:text-6xl sm:text-center  xs:poppins-light xs:w-[300px] xs:h-[80px] xs:text-4xl xs:ml-[-40px]  '>ULTIMATE</div>
-                    <div className='w-[390px] h-[120px] poppins-light1 md:text-8xl text-white outline-4 text-center md:ml-[40px] xs:w-[300px] xs:h-[120px] xs:text-6xl xs:ml-[-10px]   '>SALE</div>
+                    <div className='w-[390px] h-[120px] poppins-light1 md:text-8xl text-white outline-4 text-center md:ml-[40px] xs:w-[300px] xs:h-[120px] sm:text-8xl xs:ml-[-10px]   '>SALE</div>
                     <div className='md:w-[190px] md:h-[30px] poppins-thin text-[20px] md:text-center md:ml-[100px]  xs:w-[190px] xs:h-[30px] xs:text-[20px]  xs:ml-[60px] '>NEW COLLECTION</div>
                     <div className='md:w-[207px] md:h-[50px] md:text-center '>
                         <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none  focus:ring-4 focus:ring-gray-300 poppins-thin1 font-medium rounded-lg text-xs text-white   w-[207px] h-[45px] py-4  md:ml-[110px] mt-[10px] dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 xs:ml-[60px] xs:w-[170px]">SHOP NOW</button>
@@ -55,13 +55,13 @@ const Layout1 = () => {
                     <img src={image5.src} alt="" className="w-[22px] h-[21px]"></img>
 
         </div>
-        <div className=" md:w-full md:h-[150px] md:bg-white md:absolute md:top-[570px] md:left-[0px] md:flex md:justify-center md:items-center md:px-2 sm:w-[450px] sm:h-[50px] sm:absolute sm:top-[330px]  sm:mt-[320px] sm:left-[0px] sm:flex sm:justify-center sm:items-center sm:px-2 sm:gap-[12px]  xs:w-[350px] xs:h-[120px] xs:absolute xs:top-[320px] xs:mt-[340px] xs:left-[0px]" >
-            <div className="md:w-full md:h-[40px]  md:flex md:justify-between md:items-center sm:w-[400px] sm:h-[40px] sm:flex sm:gap-[14px] xs:w-[350px] xs:flex xs:gap-[8px]">
-                <img src={logo1.src} alt="" className="md:w-[190px] md: h-[34px] sm:w-[100px]  sm:w-[80px] sm:h-[24px] xs:w-[75px] xs:h-[24px]" />
-                <img src={logo2.src} alt="" className="md:w-[190px] md:h-[34px] sm:w-[100px] sm:w-[80px] sm:h-[24px] xs:w-[75px] xs:h-[24px]"/>
-                <img src={logo3.src} alt="" className="md:w-[190px] md:h-[34px] sm:w-[100px] sm:w-[80px] sm:h-[24px] xs:w-[75px] xs:h-[24px]"/>
-                <img src={logo4.src} alt="" className="md:w-[190px] md:h-[34px] sm:w-[100px] sm:w-[80px] sm:h-[24px] xs:w-[75px] xs:h-[24px]"/>
-                <img src={logo5.src} alt="" className="md:w-[190px] md:h-[34px] sm:w-[100px] sm:w-[80px] sm:h-[24px] xs:w-[75px] xs:h-[24px]"/>
+        <div className=" md:w-full md:h-[150px] md:bg-white md:absolute md:top-[570px] md:left-[0px] md:flex md:justify-center md:items-center md:px-2 md:bg-white sm:w-[360px] sm:h-[50px] sm:absolute sm:top-[370px]  sm:mt-[320px] sm:left-[5px] sm:flex sm:justify-center sm:items-center  sm:gap-[12px] sm:bg-gray-300 sm:py-2 " >
+            <div className="md:w-full md:h-[40px]  md:flex md:justify-between md:items-center sm:w-full sm:h-[40px] sm:flex sm:gap-[12px]">
+                <img src={logo1.src} alt="" className="md:w-[190px] md: h-[34px]   sm:w-[60px] sm:h-[24px] xs:w-[75px] xs:h-[24px]" />
+                <img src={logo2.src} alt="" className="md:w-[190px] md:h-[34px]  sm:w-[60px] sm:h-[24px] "/>
+                <img src={logo3.src} alt="" className="md:w-[190px] md:h-[34px]  sm:w-[60px] sm:h-[24px] "/>
+                <img src={logo4.src} alt="" className="md:w-[190px] md:h-[34px]  sm:w-[60px] sm:h-[24px] "/>
+                <img src={logo5.src} alt="" className="md:w-[190px] md:h-[34px]  sm:w-[60px] sm:h-[24px] "/>
 
             </div>
 
