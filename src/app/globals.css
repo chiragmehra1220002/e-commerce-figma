@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Volkhov&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Volkhov&display=swap');
+@import url('https://fonts.cdnfonts.com/css/digital-numbers');
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+body {
+  color: black;
+  background:#FFFFFF;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+}
+.volkhov-regular {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-thin {
+  font-family: "Poppins", serif;
+
+  font-style: normal;
+ 
+}
+.poppins-thin1 {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  color:white;
+}
+.poppins-light {
+  font-family: "Poppins", serif;
+ 
+  font-style: normal;
+  
+}
+.poppins-light1 {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  color:white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.poppins-thin2 {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style:normal;
+
+  color:white;
+}
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.digital{
+  font-family: 'Digital Numbers', sans-serif;
+  font-weight:400;
+}
+
+
+
+
+
