@@ -22,7 +22,7 @@ const Categories = () => {
         </div>
         <div className="md:w-[1200px] md:h-[900px] md:ml-[40px]  md:flex md:flex-wrap md:gap-[30px] md:mt-[20px] md:justify-center">
             <div className="w-[280px] h-[330px] flex flex-col  shadow-2xl rounded-lg mt-[20px] md:ml-[20px] gap-[5px] sm:ml-[30px]">
-                <Image src="/new_arrivals/image1.png" alt=""  height={204} width={230} className="ml-[20px] mt-[20px]"/>
+                <Image src="/categories/dress1.png" alt=""  height={204} width={230} className="ml-[20px] mt-[20px]"/>
                 <div className="flex gap-[70px] ml-[20px]">
                     <div className="poppins-light text-[14px] ml-[-2px] text-black">Shiny dress</div>
                     <div className="flex gap-[2px] ">
@@ -48,7 +48,7 @@ const Categories = () => {
 
             </div>
             <div className="w-[280px] h-[330px] flex flex-col  shadow-xl rounded-lg mt-[20px] md:ml-[20px] gap-[5px] sm:ml-[30px]">
-                <Image src="/new_arrivals/image2.png" alt=""  height={204} width={230} className="ml-[20px] mt-[20px]"/>
+                <Image src="/categories/dress2.png" alt=""  height={204} width={230} className="ml-[20px] mt-[20px]"/>
                 <div className="flex gap-[70px] ml-[20px]">
                     <div className="poppins-light text-[14px] ml-[-2px] text-black">Long dress</div>
                     <div className="flex gap-[2px] ">
@@ -74,7 +74,7 @@ const Categories = () => {
 
             </div>
             <div className="w-[280px] h-[330px] flex flex-col  shadow-2xl rounded-lg mt-[20px] md:ml-[20px] gap-[5px] sm:ml-[30px]">
-                <Image src="/new_arrivals/image3.png" alt=""  height={204} width={230} className="ml-[20px] mt-[20px]"/>
+                <Image src="/categories/dress3.png" alt=""  height={204} width={230} className="ml-[20px] mt-[20px]"/>
                 <div className="flex gap-[70px] ml-[20px]">
                     <div className="poppins-light text-[14px] ml-[-2px] text-black">Full Sweater</div>
                     <div className="flex gap-[2px] ">
@@ -100,7 +100,7 @@ const Categories = () => {
 
             </div>
             <div className="w-[280px] h-[330px] flex flex-col  shadow-2xl rounded-lg mt-[20px] md:ml-[20px] gap-[5px] sm:ml-[30px]">
-                <Image src="/new_arrivals/image4.png" alt=""  height={204} width={230} className="ml-[20px] mt-[20px]"/>
+                <Image src="/categories/dress4.png" alt=""  height={204} width={230} className="ml-[20px] mt-[20px]"/>
                 <div className="flex gap-[70px] ml-[20px]">
                     <div className="poppins-light text-[14px] ml-[-2px] text-black">White dress</div>
                     <div className="flex gap-[2px] ">
@@ -126,7 +126,7 @@ const Categories = () => {
 
             </div>
             <div className="w-[280px] h-[330px] flex flex-col  shadow-2xl rounded-lg mt-[20px] md:ml-[20px] sm:ml-[30px] gap-[5px]">
-                <Image src="/new_arrivals/image5.png" alt=""  height={204} width={230} className="ml-[20px] mt-[20px]"/>
+                <Image src="/categories/dress5.png" alt=""  height={204} width={230} className="ml-[20px] mt-[20px]"/>
                 <div className="flex gap-[70px] ml-[20px]">
                     <div className="poppins-light text-[14px] ml-[-2px] text-black">Colorful dress</div>
                     <div className="flex gap-[2px] ">
@@ -152,7 +152,7 @@ const Categories = () => {
 
             </div>
             <div className="w-[280px] h-[330px] flex flex-col  shadow-2xl rounded-lg mt-[20px] md:ml-[20px] sm:ml-[30px] gap-[5px]">
-                <Image src="/new_arrivals/image6.png" alt=""  height={204} width={230} className="ml-[20px] mt-[20px]"/>
+                <Image src="/categories/dress6.png" alt=""  height={204} width={230} className="ml-[20px] mt-[20px]"/>
                 <div className="flex gap-[70px] ml-[20px]">
                     <div className="poppins-light text-[14px] ml-[-2px] text-black">White Shirt</div>
                     <div className="flex gap-[2px] ">
@@ -180,7 +180,7 @@ const Categories = () => {
            
 
         </div>
-        <button type="button" className="md:poppins-thin text-xs md:rounded-lg bg-black md:mt-[20px] md:ml-[550px]  md:shadow-xl md:text-white md:shadow-lg hover:bg-gray-900 hover:text-white hover:shadow-xl focus:outline-none md:w-[207px] md:h-[45px] py-4 sm:w-[197px] sm:h-[45px] sm:ml-[60px] sm:mt-[30px] sm:rounded-lg sm:shadow-lg sm:text-white sm:hover:bg-gray-900 sm:hover:text-white sm:hover:shadow-xl" >View More</button>
+        <button type="button" className="md:poppins-thin text-xs md:rounded-lg bg-black md:mt-[20px] md:ml-[550px]  md:shadow-xl md:text-white md:shadow-lg hover:bg-gray-900 hover:text-white hover:shadow-xl focus:outline-none md:w-[207px] md:h-[45px] py-4 sm:w-[197px] sm:h-[45px] sm:ml-[60px] sm:mt-[30px] sm:mb-[20px] sm:rounded-lg sm:shadow-lg sm:text-white sm:hover:bg-gray-900 sm:hover:text-white sm:hover:shadow-xl" >View More</button>
          
            
     

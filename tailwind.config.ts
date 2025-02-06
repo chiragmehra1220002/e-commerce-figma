@@ -23,6 +23,23 @@ export default {
         'md': '650px',
         'lg': '1540px',
       },
+      display: ["group-hover"],
+      animation: {
+        "scroll-horizontal": "scroll-horizontal 12s linear infinite",
+        // "&:hover": "scroll-horizontal 0s  infinite"
+      },
+      keyframes: {
+        "scroll-horizontal": {
+          "0%": {
+            transform: "translateX(100%)",
+           
+          },
+          "100%": {
+            transform: "translateX(-100%)",
+            
+          }
+        }
+      }
      
     },
   },

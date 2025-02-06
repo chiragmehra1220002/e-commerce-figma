@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/components/Home/Navbar";
 import type { Viewport } from 'next'
+import BestSellingProduct from "./components/Home/BestSellingProduct";
+import Features from "./components/Home/feature";
  
 export const viewport: Viewport = {
   width: 'device-width',
@@ -45,6 +47,8 @@ export default function RootLayout({
           
  
         {children}
+        <BestSellingProduct/>
+        <Features/>
       </body>
     </html>
   );

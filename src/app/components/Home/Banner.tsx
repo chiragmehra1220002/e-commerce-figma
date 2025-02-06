@@ -4,7 +4,14 @@ import arrow2 from "../Images/arrow1.png";
 import dress1 from "../Images/dress1.png";
 import dress2 from "../Images/dress2.png";
 import dress3 from "../Images/dress3.png";
-const Banner = () => {
+interface TimerProps {
+    days: number;
+    hours: number;
+    minutes: number;
+    seconds: number;
+  }
+  
+const Banner = ({ days, hours, minutes, seconds }: TimerProps) => {
   return (
     <>
     <div className='md:top-[1300px] md:w-full md:h-[780px] md:bg-[#FCFCFC] md:flex md:box-content md:m-0 md:p-0 md:mr-[0px] sm:top-[900px] sm:w-full sm:h-[780px] sm:bg-[#FCFCFC] sm:flex sm:box-content sm:m-0 sm:p-0 xs:mr-[20px]' >
@@ -29,19 +36,19 @@ const Banner = () => {
                 </div>
                 <div className="w-[374px] h-[120px] ml-[5px] flex gap-[6px] justify-center mt-[20px]">
                     <div className="w-[70px] h-[115px]  flex flex-col gap-[4px]">
-                        <div className="w-[50px] h-[50px] bg-white text-[25px] digital rounded-lg drop-shadow-lg text-center flex justify-center align-center">02</div>
+                        <div className="w-[50px] h-[50px] bg-white text-[25px] digital rounded-lg drop-shadow-lg text-center flex justify-center align-center">{days}</div>
                         <div className='poppins-light text-[16px] ml-[10px] '>Days</div>
                     </div>
                     <div className="w-[70px] h-[115px]  flex flex-col gap-[4px]">
-                        <div className="w-[50px] h-[50px] bg-white text-[25px] digital rounded-lg drop-shadow-lg text-center flex justify-center align-center">06</div>
+                        <div className="w-[50px] h-[50px] bg-white text-[25px] digital rounded-lg drop-shadow-lg text-center flex justify-center align-center">{hours}</div>
                         <div className='poppins-light text-[16px] ml-[10px]'>Hr</div>
                     </div>
                     <div className="w-[70px] h-[115px] flex flex-col gap-[4px]">
-                        <div className="w-[50px] h-[50px] bg-white  text-[25px] digital rounded-lg drop-shadow-lg text-center flex justify-center align-center">05</div>
+                        <div className="w-[50px] h-[50px] bg-white  text-[25px] digital rounded-lg drop-shadow-lg text-center flex justify-center align-center">{minutes.toString().padStart(2, '0')}</div>
                         <div className='poppins-light text-[16px] ml-[10px] '>Mins</div>
                     </div>
                     <div className="w-[70px] h-[115px] flex flex-col gap-[4px]">
-                        <div className="w-[50px] h-[50px] bg-white  text-[25px] digital rounded-lg drop-shadow-lg text-center flex justify-center align-center">10</div>
+                        <div className="w-[50px] h-[50px] bg-white  text-[25px] digital rounded-lg drop-shadow-lg text-center flex justify-center align-center">{seconds.toString().padStart(2, '0')}</div>
                         <div className='poppins-light text-[16px] ml-[10px] '>Sec</div>
                     </div>
                    
@@ -54,17 +61,14 @@ const Banner = () => {
             </div>
             <div></div>
         </div>
-        <div className="w-[112px] h-[48px] mt-[430px] ml-[10px] xs:hidden sm:hidden md:block ">
-                        <button className="w-[40px] h-[40px]  rounded-xl">
-                            <img src={arrow1.src} alt="" className="object contain w-[40px] h-[40px] bg-[#FFFFFF]"/>
-                        </button>
-                        <button className="w-[40px] h-[40px]  rounded-xl">
-                            <img src={arrow2.src} alt="" className='object contain w-[40px] h-[40px] bg-[#FFFFFF]' />
-                        </button>
+        <div className="w-[112px] h-[48px] mt-[550px] ml-[30px]   left-[300px] xs:hidden sm:hidden md:block ">
+            <button className='w-[11px] h-[11px] rounded-xl bg-[#B6B6B6] '></button>
+            <button className='w-[11px] h-[11px] rounded-xl bg-[#B6B6B6] ml-[8px]'></button>
+            <button className='w-[11px] h-[11px] rounded-xl bg-[#B6B6B6] ml-[8px]'></button>
                         
 
         </div>
-        <div className="md:w-7xl md:h-[582px]  md:flex mt-[30px] md:gap-[16px] xs:hidden sm:hidden md:block">
+        <div className="md:w-7xl md:h-[582px]  md:flex mt-[30px] md:gap-[0px] xs:hidden sm:hidden md:block">
             <div className=' h-[450px]'>
                 <img src={dress1.src} alt="" className='w-full h-[450px] object-cover' />
                 <div className="w-[150px] h-[100px]  bg-white absolute top-[1390px] left-[650px] flex flex-col justify-center ">
@@ -74,25 +78,31 @@ const Banner = () => {
                 </div>
             </div>
            
-            <img src={dress2.src} alt="" className='w-[250px] h-[400px]' />
-            <img src={dress3.src} alt="" className='w-[250px] h-[400px]' />
+            <img src={dress2.src} alt="" className='w-[250px] h-[450px]' />
+            <img src={dress3.src} alt="" className='w-[250px] h-[450px]' />
+            
 
         </div>
-    
+       
     
     </div>
        <div className="sm:w-5xl xs:h-[582px]  sm:flex mt-[-150px] sm:gap-[0px] md:hidden position-relative ">
        <div className=' h-[450px]'>
            <img src={dress1.src} alt="" className='w-[210px] h-[400px] object-cover roundex-lg' />
-           <div className="w-[80px] h-[80px]  bg-white absolute top-[1570px] left-[65px] flex flex-col justify-center items-center gap-[5px] ">
-               <div className="w-[20px] h-[20px] poppins-regular text-[7px] text-center ml-[1px] ">01 Spring Sale</div>
-               <div className="w-[20px] h-[20px] poppins-regular text-[7px] text-center ">30% OFF</div>
+           <div className="w-[80px] h-[80px]  bg-white absolute top-[1575px] left-[66px] flex flex-col items-center  justify-center gap-[10px] ">
+               <div className="w-[80px] h-[20px] poppins-regular text-[8px] text-center  font-[300] ">01 Spring Sale</div>
+               <div className="w-[60px] h-[20px] poppins-regular text-[8px] text-center  font-[300]">30% OFF</div>
 
            </div>
        </div>
       
        <img src={dress2.src} alt="" className='w-[210px] h-[400px] rounded-lg' />
        {/* <img src={dress3.src} alt="" className='w-[150px] h-[400px]' /> */}
+       <div className="w-[80px] h-[80px]  bg-white absolute top-[1575px] left-[230px] flex flex-col items-center  justify-center gap-[10px] ">
+               <div className="w-[80px] h-[20px] poppins-regular text-[8px] text-center  font-[300] ">01 Spring Sale</div>
+               <div className="w-[60px] h-[20px] poppins-regular text-[8px] text-center  font-[300]">30% OFF</div>
+
+        </div>
 
    </div>
    </>
