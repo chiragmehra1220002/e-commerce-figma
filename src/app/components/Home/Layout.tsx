@@ -70,13 +70,13 @@ const Layout1 = () => {
                     <img src={image5.src} alt="" className="w-[22px] h-[21px]"></img>
 
         </div>
-        <div className=" md:w-full md:h-[150px] md:bg-white md:absolute md:top-[570px] md:left-[0px] md:flex md:justify-center md:items-center md:px-2 md:bg-white sm:w-fit sm:h-[50px] sm:absolute sm:top-[370px]  sm:mt-[320px] sm:left-[5px] sm:flex sm:justify-center sm:items-center  sm:gap-[12px] sm:bg-gray-300 sm:py-2 " >
+        <div className=" md:w-full md:h-[150px] md:bg-white md:absolute md:top-[570px] md:left-[0px] md:flex md:justify-center md:items-center md:px-2 md:bg-white sm:w-fit sm:h-[50px] sm:absolute sm:top-[370px]  sm:mt-[320px] sm:left-[5px] sm:flex sm:justify-center sm:items-center  sm:gap-[16px]  sm:py-2 " >
             <div className="md:w-full md:h-[40px]  md:flex md:justify-between md:items-center sm:w-full sm:h-[40px] sm:flex sm:gap-[12px] animate-scroll-horizontal">
-                <img src={logo1.src} alt="" className="md:w-[190px] md: h-[34px]   sm:w-[60px] sm:h-[24px] xs:w-[75px] xs:h-[24px]" />
-                <img src={logo2.src} alt="" className="md:w-[190px] md:h-[34px]  sm:w-[60px] sm:h-[24px] "/>
-                <img src={logo3.src} alt="" className="md:w-[190px] md:h-[34px]  sm:w-[60px] sm:h-[24px] "/>
-                <img src={logo4.src} alt="" className="md:w-[190px] md:h-[34px]  sm:w-[60px] sm:h-[24px] "/>
-                <img src={logo5.src} alt="" className="md:w-[190px] md:h-[34px]  sm:w-[60px] sm:h-[24px] "/>
+                <img src={logo1.src} alt="" className="md:w-[190px] md: h-[34px]   sm:w-[100px] sm:h-[34px] xs:w-[75px] xs:h-[24px]" />
+                <img src={logo2.src} alt="" className="md:w-[190px] md:h-[34px]  sm:w-[100px] sm:h-[34px] "/>
+                <img src={logo3.src} alt="" className="md:w-[190px] md:h-[34px]  sm:w-[100px] sm:h-[34px] "/>
+                <img src={logo4.src} alt="" className="md:w-[190px] md:h-[34px]  sm:w-[100px] sm:h-[34px] "/>
+                <img src={logo5.src} alt="" className="md:w-[190px] md:h-[34px]  sm:w-[100px] sm:h-[34px] "/>
                 
 
             </div>

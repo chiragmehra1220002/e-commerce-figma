@@ -5,6 +5,8 @@ import Navbar from "@/app/components/Home/Navbar";
 import type { Viewport } from 'next'
 import BestSellingProduct from "./components/Home/BestSellingProduct";
 import Features from "./components/Home/feature";
+import Gallery from "./components/Home/gallery";
+
  
 export const viewport: Viewport = {
   width: 'device-width',
@@ -39,9 +41,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning
       >
+        <time dateTime="2016-10-25" suppressHydrationWarning />
+         
       
           <Navbar />
           
@@ -49,6 +55,8 @@ export default function RootLayout({
         {children}
         <BestSellingProduct/>
         <Features/>
+        <Gallery/>
+      
       </body>
     </html>
   );
