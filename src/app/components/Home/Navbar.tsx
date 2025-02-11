@@ -19,9 +19,9 @@ const Navbar = () => {
             <Link href="/" className="poppins-thin text-sm text-black font-[400]">Deals</Link>
             <Link href="/" className="poppins-thin text-sm text-black font-[400]">New Arrivals</Link>
             <Link href="/" className="poppins-thin text-sm text-black font-[400]">Packages</Link>
-            <Link href="/" className="poppins-thin text-sm text-black font-[400]">Sign in</Link>
+            <Link href="/Login" className="poppins-thin text-sm text-black font-[400]">Sign in</Link>
             <button className="bg-gray-800 text-white poppins-thin1 text-sm rounded-lg px-5 py-2 hover:bg-gray-900">
-              Sign Up
+              <Link href="/Signup">Sign Up</Link>
             </button>
           </div>
   
