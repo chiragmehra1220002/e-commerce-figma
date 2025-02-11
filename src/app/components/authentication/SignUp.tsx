@@ -13,7 +13,7 @@ const SignUp = () => {
   const [formData, setFormData] = useState({
     email: "",
     password: "",
-    confirmPassword: "",
+    confirmpassword: "",
     name: "",
     phone: "",
     firstname: "",
@@ -48,7 +48,7 @@ const SignUp = () => {
   const create = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if (formData.password !== formData.confirmPassword) {
+    if (formData.password !== formData.confirmpassword) {
       setError("Passwords do not match");
       return;
     }
@@ -158,8 +158,8 @@ const SignUp = () => {
               />
               <input
                 type="password"
-                name="confirmPassword"
-                value={formData.confirmPassword}
+                name="confirmpassword"
+                value={formData.confirmpassword}
                 onChange={handleInputChange}
                 className="py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline poppins-thin font-[400] border-b-2 border-[#9D9D9D]"
                 placeholder="Confirm Password"
